@@ -64,7 +64,11 @@
 					<p>In model II, I use state dummies and year dummies to control state fixed effect
 						and year fixed effect, respectively.</p>
 					<p><img src="images/Model-2.jpeg" alt="" class="img-fluid"></p>
-					
+					<p>Given that marijuana legalization has different initiated date in each state, traditional DID model specification does not work, and one can use time-varying DID method. Thus, I can use time-varying difference in difference model (TVDIFF) model to identify the policy impact.
+					  </p>
+					<p><img src="images/diff model.jpeg" alt="" class="img-fluid"></p>
+					<p>The benefit of this model is that one need not assume the policy of treatment groups need not be carried out simultaneously. On the contrary, we can assume that the policy being carried at different stage, and use lagged and forward variables to identify causal effect.
+					  </p>
 					<p>The result can be shown in table 2 and table 3. Table 2 is the results based on
 						violent crime rate, while table 3 is the results based on property crime rate.</p>
 					<figure>
